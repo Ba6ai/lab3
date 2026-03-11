@@ -17,8 +17,7 @@ let sumCount n =
 
 let sumList num = 
     // Выполняется только когда к нему обращаются
-    // Проход по каждому элементу и превращение последовательности в список
-    num |> Seq.map sumCount |> Seq.toList
+    num |> Seq.map sumCount
 
 [<EntryPoint>]
 let main _ =
