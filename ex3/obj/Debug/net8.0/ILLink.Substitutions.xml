@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linker>
+  <assembly fullname="ex3">
+    <resource name="FSharpSignatureData.ex3" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedData.ex3" action="remove"></resource>
+    <resource name="FSharpSignatureDataB.ex3" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedDataB.ex3" action="remove"></resource>
+    <resource name="FSharpOptimizationData.ex3" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedData.ex3" action="remove"></resource>
+    <resource name="FSharpOptimizationDataB.ex3" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedDataB.ex3" action="remove"></resource>
+    <resource name="FSharpOptimizationInfo.ex3" action="remove"></resource>
+    <resource name="FSharpSignatureInfo.ex3" action="remove"></resource>
+  </assembly>
+</linker>
