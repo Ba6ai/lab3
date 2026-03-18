@@ -12,11 +12,11 @@ let main _ =
 
     if Directory.Exists(path) then // Проверка существования папки
         let files = 
-            Directory.EnumerateFiles(path) // Получение последовательности путей
+            Directory.EnumerateFiles(path) // Получение последовательности путей, вадыёт по одному
 
             |> Seq.map Path.GetFileName // Преобразует целый путь в короткое имя
             |> Seq.filter (fun name -> name.[0] = s.[0]) // Ищет файлы на введённую букву
-            |> Seq.toList
+            |> Seq.toList  // Превращение в список
         
         printfn "Список файлов на букву %s: %A " s files
     else
