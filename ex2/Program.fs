@@ -2,7 +2,7 @@
 
 // Получение первой цифры числа
 let search n = 
-    let s = string n
+    let s = string (abs n)
     int(string s.[0]) // Получение первого символа в строке .[0]
 
 [<EntryPoint>]
@@ -15,22 +15,20 @@ let main _ =
     let input = 
         Seq.initInfinite(fun _ -> Console.ReadLine())
         |> Seq.takeWhile (fun x -> x <> "ex")
-
-        |> Seq.choose (fun x -> // Проверка на корректность ввода
+        |> Seq.choose (fun x ->
             match System.Int32.TryParse(x) with
-            // Распознавание корректных значений для фильтрации
             | true, value -> Some value
             | false, _ ->
                 printfn "'%s'Не является числом " x
                 None) // Игнорируется ввод
 
-        // Подсчёт суммы
-        |>Seq.fold (fun acc x ->
-            if search x = target then
-                acc + x 
-            else
-                acc
-        ) 0
+    let totalSum =
+        input
+        |> Seq.fold (fun acc x ->
+        if search x = target then
+            acc + x
+        else
+            acc) 0
 
-    printfn "Сумма чисел начинающихся на %d: %d" target input
+    printfn "Сумма чисел начинающихся на %d: %d" target totalSum
     0

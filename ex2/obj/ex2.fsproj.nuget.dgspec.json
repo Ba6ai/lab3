@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elise\\OneDrive\\УНИК\\2Курс\\2\\ЯП\\lab3\\ex2\\ex2.fsproj": {}
+    "C:\\Users\\elise\\OneDrive\\УНИК\\2Курс\\2\\ЯП\\kt1\\lab3\\ex2\\ex2.fsproj": {}
   },
   "projects": {
-    "C:\\Users\\elise\\OneDrive\\УНИК\\2Курс\\2\\ЯП\\lab3\\ex2\\ex2.fsproj": {
+    "C:\\Users\\elise\\OneDrive\\УНИК\\2Курс\\2\\ЯП\\kt1\\lab3\\ex2\\ex2.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elise\\OneDrive\\УНИК\\2Курс\\2\\ЯП\\lab3\\ex2\\ex2.fsproj",
+        "projectUniqueName": "C:\\Users\\elise\\OneDrive\\УНИК\\2Курс\\2\\ЯП\\kt1\\lab3\\ex2\\ex2.fsproj",
         "projectName": "ex2",
-        "projectPath": "C:\\Users\\elise\\OneDrive\\УНИК\\2Курс\\2\\ЯП\\lab3\\ex2\\ex2.fsproj",
+        "projectPath": "C:\\Users\\elise\\OneDrive\\УНИК\\2Курс\\2\\ЯП\\kt1\\lab3\\ex2\\ex2.fsproj",
         "packagesPath": "C:\\Users\\elise\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elise\\OneDrive\\УНИК\\2Курс\\2\\ЯП\\lab3\\ex2\\obj\\",
+        "outputPath": "C:\\Users\\elise\\OneDrive\\УНИК\\2Курс\\2\\ЯП\\kt1\\lab3\\ex2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\elise\\AppData\\Roaming\\NuGet\\NuGet.Config",
