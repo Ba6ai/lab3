@@ -11,14 +11,12 @@ let sumCount n =
 
 // Создание последовательности
 let input = 
-    // Генератор бесконечной полседовательности
+    // Генератор бесконечной последовательности
     Seq.initInfinite (fun _ -> Console.ReadLine())
 
     |> Seq.takeWhile (fun x -> x <> "ex") // Условие завершения ввода
-
-    |> Seq.choose (fun x -> // фильтр в котором some - то всё ок, если - None, то ошибка
+    |> Seq.choose (fun x ->
         match System.Int32.TryParse(x) with
-        // Распознавание корректных значений для фильтрации
         | true, value -> Some value
         | false, _ ->
             printfn "'%s'Не является числом " x
@@ -29,7 +27,5 @@ let input =
 let main _ =
     printfn "Введите числа (через Enter), для выхода введите 'ex':"
     let res = 
-        input
-            // Работает как for
-            |> Seq.iter (fun s -> printfn "Сумма цифр этого числа: %d" s)
+        input |> Seq.iter (fun s -> printfn "Сумма цифр этого числа: %d" s)
     0
