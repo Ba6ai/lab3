@@ -113,11 +113,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\elise\\OneDrive\\УНИК\\2Курс\\2\\ЯП\\lab3\\ex3\\ex3.fsproj",
+      "projectUniqueName": "C:\\Users\\elise\\OneDrive\\УНИК\\2Курс\\2\\ЯП\\kt1\\lab3\\ex3\\ex3.fsproj",
       "projectName": "ex3",
-      "projectPath": "C:\\Users\\elise\\OneDrive\\УНИК\\2Курс\\2\\ЯП\\lab3\\ex3\\ex3.fsproj",
+      "projectPath": "C:\\Users\\elise\\OneDrive\\УНИК\\2Курс\\2\\ЯП\\kt1\\lab3\\ex3\\ex3.fsproj",
       "packagesPath": "C:\\Users\\elise\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\elise\\OneDrive\\УНИК\\2Курс\\2\\ЯП\\lab3\\ex3\\obj\\",
+      "outputPath": "C:\\Users\\elise\\OneDrive\\УНИК\\2Курс\\2\\ЯП\\kt1\\lab3\\ex3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\elise\\AppData\\Roaming\\NuGet\\NuGet.Config",
