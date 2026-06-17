@@ -1,9 +1,8 @@
 ﻿open System
 
-// Получение первой цифры числа
 let search n = 
     let s = string (abs n)
-    int(string s.[0]) // Получение первого символа в строке .[0]
+    int(string s.[0])
 
 [<EntryPoint>]
 let main _ =
@@ -11,7 +10,6 @@ let main _ =
     let target = int(Console.ReadLine())
 
     printfn "Введите числа (ex для выхода)"
-    // Создание последовательности
     let input = 
         Seq.initInfinite(fun _ -> Console.ReadLine())
         |> Seq.takeWhile (fun x -> x <> "ex")
@@ -20,7 +18,7 @@ let main _ =
             | true, value -> Some value
             | false, _ ->
                 printfn "'%s'Не является числом " x
-                None) // Игнорируется ввод
+                None)
 
     let totalSum =
         input
